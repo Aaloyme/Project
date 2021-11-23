@@ -4,16 +4,17 @@
 }
 
 .section-one {
-    height: 90vh;
-    background-color: rgb(151, 0, 151);
+    height: 79.5vh;
+    background-color: rgb(134, 80, 156);
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
     display: flex;
     justify-content: space-around; 
     align-items: center;
-    height: 60px;
+    height: 147px;
     position: absolute;
     width: 100%;
 }
@@ -27,22 +28,18 @@
     text-transform: uppercase;
 }
 
-.navbar__item_active {
-    background-color: rgb(121, 0, 121);
-}
-
 .navbar__item:hover {
     background-color: rgb(131, 0, 131);
 }
 
 .navbar__logo {
     color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 3rem;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .section-one article {
-    height: 100%;
+    height: 120%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,29 +48,29 @@
 }
 
 .section-one h2 {
-    width: 500px;
+    width: 930px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    font-size: 2.6rem;
 }
 
 .section-one .btn {
-    padding: 10px 20px;
-    background-color: orange;
+    padding: 25px 107px;
+    background-color: rgb(235, 125, 74);
     color: #fff;
-    border: none;
+    border: 3px solid rgb(212, 114, 78);
+    border-radius: 4%;
 }
 
-.section-two {
-    height: 100vh;
-}
 
 /* ==== section two ==== */
 /* ==== section two ==== */
 /* ==== section two ==== */
 
+
 .section-two {
-    min-height: 100vh;
-    background-color: rgb(48, 219, 148);
+    min-height: 88vh;
+    background-color: rgb(23, 193, 164);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,10 +81,9 @@
 
 .section-two__title {
     text-transform: uppercase;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin: 105px 0px 30px 0px;
     position: relative;
-    font-size: 2.3rem;
+    font-size: 2.2rem;
 }
 
 .section-two__discription {
@@ -100,13 +96,13 @@
 .section-two__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .section-two__item {
-    margin: 40px;
+    margin: 50px;
 } 
 
 .card__name2 {
@@ -122,7 +118,7 @@
 .section-two__title:after {
     content: '';
     position: absolute;
-    border-bottom: 4px solid rgb(1, 204, 145);
+    border-bottom: 5px solid rgb(17, 168, 142);
     width: 70px;
     bottom: -10px;
     left: calc(50% - 35px);
@@ -139,7 +135,7 @@
 /* ==== section three ==== */
 
 .section-three {
-    min-height: 100vh;
+    min-height: 104.5vh;
     background-color: rgb(212, 212, 212);
     display: flex;
     flex-direction: column;
@@ -175,7 +171,7 @@
 }
 
 .section-three__item {
-    margin: 40px;
+    margin: 50px;
 } 
 
 .card {
@@ -191,7 +187,7 @@
 }
 
 .card__title {
-    color: rgb(0, 180, 224);
+    color: rgb(0, 180, 225);
 }
 
 .card__discription {
@@ -205,7 +201,7 @@
 }
 
 .card__link-item {
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(195, 195, 195);
     padding: 5px;
     border-radius: 100%;
     width: 25px;
@@ -230,15 +226,67 @@
     width: 170px;
     border-radius: 50%;    
 }
-
-
-
-
-/* ==== section four ==== */
-/* ==== section four ==== */
-/* ==== section four ==== */
+/* ==== section five ==== */
+/* ==== section five ==== */
+/* ==== section five ==== */
 
 .section-four {
+    min-height: 60vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.section-four__title {
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 2.3rem;
+}
+
+.section-four__discription {
+    max-width: 600px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-four__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.card__name4 {
+    text-transform: uppercase;
+    color: black
+}
+
+
+.section-four__title:after {
+    content: '';
+    position: absolute;
+    border-bottom: 5px solid rgb(226, 233, 236);
+    width: 70px;
+    bottom: -10px;
+    left: calc(50% - 35px);
+}
+
+
+
+/* ==== section five ==== */
+/* ==== section five ==== */
+/* ==== section five ==== */
+
+.section-five {
     min-height: 120vh;
     background-color: rgb(250, 221, 136);
     display: flex;
@@ -248,69 +296,66 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.section-four__title {
+.section-five__title {
     text-transform: uppercase;
     margin-top: 120px;
     margin-bottom: 20px;
     position: relative;
 }
 
-.section-four__title:after {
+.section-five__title:after {
     content: '';
     position: absolute;
-    border-bottom: 2px solid rgb(222, 190, 34);
+    border-bottom: 2px solid rgb(222, 190, 35);
     width: 70px;
     bottom: -10px;
     left: calc(50% - 35px);
 }
 
 
-.navbar__item_active-4 {
-    background-color: rgb(250, 248, 250);
+.navbar__item_active-5 {
+    background-color: rgb(250, 258, 250);
 }
 
-.card__img-4 {
-    height: 245px;
+.card__img-5 {
+    height: 255px;
     width: 300px;
 }
 
-.card__name-4 {
+.card__name-5 {
     text-transform: uppercase;
     color: rgb(27, 27, 27);
     text-align: center;
 }
-.navbar__list-4 {
+.navbar__list-5 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.section-four__itemcard{
+.section-five__itemcard{
     display: table-cell;
     padding: 15px 75px 15px 75px;
 }
 
-.section-four__list-1 {
+.section-five__list-1 {
     display: table-row;
     justify-content: space-between;
 }
 
-.navbar__item-4 {
+.navbar__item-5 {
     padding: 5px 10px;
     margin: 5px 10px;
     border-radius: 5px;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: rgb(222, 190, 34);
+    background-color: rgb(222, 190, 35);
 }
 
-.navbar__item_active-4 {
-    background-color: rgb(248, 248, 248);
-}
-
-.section-four .btn-4 {
-    padding: 15px 40px;
-    background-color: rgb(91, 189, 164);
+.section-five .btn-5 {
+    padding: 15px 50px;
+    background-color: rgb(91, 189, 165);
     color: #fff;
     border: 1px solid rgb(52, 163,112);
     margin-top: 30px;
 }
+
