@@ -105,12 +105,12 @@
     margin: 50px;
 } 
 
-.card2__name2 {
+.card__name2 {
     text-transform: uppercase;
     color: white;
 }
 
-.card2__discription2 {
+.card__discription2 {
     margin: 25px 0px;
     text-align: center;
 }
@@ -174,33 +174,33 @@
     margin: 50px;
 } 
 
-.card3 {
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.card3__name {
+.card__name {
     text-transform: uppercase;
     color: rgb(27, 27, 27);
     margin-top: 20px;
 }
 
-.card3__title {
+.card__title {
     color: rgb(0, 180, 225);
 }
 
-.card3__discription {
+.card__discription {
     margin: 10px 0px;
     text-align: center;
 }
 
-.card3__link-list {
+.card__link-list {
     display: flex;
     justify-content: space-between;
 }
 
-.card3__link-item {
+.card__link-item {
     background-color: rgb(195, 195, 195);
     padding: 5px;
     border-radius: 100%;
@@ -407,13 +407,13 @@
     margin: 76px 20px 77px 99px;
 } 
 
-.card {
+.carda {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
 
-.card__info {
+.carda__info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -421,28 +421,27 @@
     line-height: 1.5rem;
 }
 
-.card__name {
+.carda__name {
     text-transform: uppercase;
-    margin-top: 11px;
+    margin-top: px;
     color: white;
 }
 
-.card__title {
+.carda__title {
     color: gold;
-    font-size: 0.9rem;
 }
 
-.card__discription {
+.carda__discription {
     margin: 10px 0px;
     text-align: left;
 }
 
-.card__link-list {
+.carda__link-list {
     display: flex;
     justify-content: space-between;
 }
 
-.card__link-item {
+.carda__link-item {
     background-color: rgb(195, 195, 195);
     padding: 5px;
     border-radius: 100%;
@@ -454,7 +453,7 @@
     margin: 5px;
 }
 
-.card__img {
+.carda__img {
     height: 90px;
     width: 90px;
     border-radius: 50%;    
