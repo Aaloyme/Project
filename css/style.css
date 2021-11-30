@@ -105,12 +105,12 @@
     margin: 50px;
 } 
 
-.card__name2 {
+.card2__name2 {
     text-transform: uppercase;
     color: white;
 }
 
-.card__discription2 {
+.card2__discription2 {
     margin: 25px 0px;
     text-align: center;
 }
@@ -174,33 +174,33 @@
     margin: 50px;
 } 
 
-.card {
+.card3 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.card__name {
+.card3__name {
     text-transform: uppercase;
     color: rgb(27, 27, 27);
     margin-top: 20px;
 }
 
-.card__title {
+.card3__title {
     color: rgb(0, 180, 225);
 }
 
-.card__discription {
+.card3__discription {
     margin: 10px 0px;
     text-align: center;
 }
 
-.card__link-list {
+.card3__link-list {
     display: flex;
     justify-content: space-between;
 }
 
-.card__link-item {
+.card3__link-item {
     background-color: rgb(195, 195, 195);
     padding: 5px;
     border-radius: 100%;
