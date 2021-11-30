@@ -226,9 +226,9 @@
     width: 170px;
     border-radius: 50%;    
 }
-/* ==== section five ==== */
-/* ==== section five ==== */
-/* ==== section five ==== */
+/* ==== section four ==== */
+/* ==== section four ==== */
+/* ==== section four ==== */
 
 .section-four {
     min-height: 60vh;
@@ -359,3 +359,103 @@
     margin-top: 30px;
 }
 
+
+/* ==== section six ==== */
+/* ==== section six ==== */
+/* ==== section six ==== */
+
+
+.section-six {
+    min-height: 104.5vh;
+    background-color: rgb(215, 70, 129);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.section-six__title {
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    position: relative;
+    font-size: 2.2rem;
+}
+
+.section-six__title:after {
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid rgb(197, 62, 117);
+    width: 80px;
+    bottom: -20px;
+    left: calc(50% - 35px);
+}
+
+.section-six__discription {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.section-six__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-six__item {
+    margin: 76px 20px 77px 99px;
+} 
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+    line-height: 1.5rem;
+}
+
+.card__name {
+    text-transform: uppercase;
+    margin-top: 11px;
+    color: white;
+}
+
+.card__title {
+    color: gold;
+    font-size: 0.9rem;
+}
+
+.card__discription {
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.card__link-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__link-item {
+    background-color: rgb(195, 195, 195);
+    padding: 5px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.card__img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;    
+}
