@@ -35,7 +35,7 @@
 .navbar__logo {
     color: #ffffff;
     font-size: 3rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lobster', cursive;
 }
 
 .section-one article {
@@ -61,6 +61,44 @@
     border: 3px solid rgb(212, 114, 78);
     border-radius: 4%;
 }
+
+@media screen and (max-width: 680px) {
+
+    .section-one {
+        height: 79.5vh;
+        background-color: rgb(134, 80, 156);
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .section-one h2 {
+        width: 500px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 2.2rem;
+        line-height: 3.2rem;
+    }
+
+    .section-one .btn {
+        padding: 20px 175px;
+        margin-top: -20px;
+    }
+
+    .navbar__list {
+        display: none;
+    }
+
+    .navbar__logo {
+        font-size: 2.6rem;
+    }
+
+    .navbar {
+        height: 140px;
+    }
+ 
+}
+
+
 
 
 /* ==== section two ==== */
@@ -130,13 +168,56 @@
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 680px) {
+    .section-two {
+        height: 178vh;
+    }
+
+    .section-two__list {
+        grid-template-columns: 1fr;
+    }
+
+    .section-two__discription {
+        max-width: 480px;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    .section-two__item {
+        margin: 15px;
+    } 
+
+    .images {
+        height: 110px;
+        width: 110px;
+        margin-bottom: 40px;
+    }
+
+    .card__name2 {
+       font-size: 1.15rem;
+    }
+
+    .section-two__title:after {
+        bottom: -25px;
+    }
+
+    .section-two__title {
+        margin: 55px 0px 25px 0px;
+    }
+    
+    .card__discription2 {
+       font-size: 0.9rem;
+    }
+}
+
+
 /* ==== section three ==== */
 /* ==== section three ==== */
 /* ==== section three ==== */
 
 .section-three {
     min-height: 104.5vh;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(231, 242, 248);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -201,7 +282,7 @@
 }
 
 .card__link-item {
-    background-color: rgb(195, 195, 195);
+    background-color: rgb(191, 208, 220);
     padding: 5px;
     border-radius: 100%;
     width: 25px;
@@ -218,7 +299,7 @@
 
 .vk:hover {
     color: #fff;
-    background-color: rgb(65, 65, 230);
+    background-color: white;
 }
 
 .card__img {
@@ -226,6 +307,63 @@
     width: 170px;
     border-radius: 50%;    
 }
+
+
+@media screen and (max-width: 680px) {
+    .section-three {
+        min-height: 245.5vh;
+    }
+
+    .section-three__list {
+        grid-template-columns: 1fr;
+    }
+
+    .section-three__title {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        font-size: 2rem;
+    }
+
+    .section-three__title:after {
+        border-bottom: 4px solid rgb(213, 227, 237);
+        bottom: -30px;
+    }
+    
+    .section-three__discription {
+        font-size: 1rem;
+        width: 500px;
+        line-height: 1.5rem;
+        margin-bottom: 25px;
+    }
+      
+    .section-three__item {
+        margin: 20px 50px 0px 50px;
+    } 
+      
+    .card__name {
+        margin-top: 45px;
+        margin-bottom: 10px;
+    }
+    
+    .card__title {
+        font-size: 0.9rem;
+    }
+    
+    .card__discription {
+        margin: 35px 0px;
+    }
+      
+    .card__link-item {
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+    }
+    
+}
+
+
+
+
 /* ==== section four ==== */
 /* ==== section four ==== */
 /* ==== section four ==== */
