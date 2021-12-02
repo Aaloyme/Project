@@ -412,11 +412,51 @@
 .section-four__title:after {
     content: '';
     position: absolute;
-    border-bottom: 5px solid rgb(226, 233, 236);
+    border-bottom: 5px solid rgb(223, 232, 235);
     width: 70px;
     bottom: -10px;
     left: calc(50% - 35px);
 }
+
+
+@media screen and (max-width: 680px) {
+    .section-four {
+        min-height: 93vh;
+    }
+
+    .section-four__list {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+
+    .section-four__title {
+        margin-bottom: 30px;
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+    
+    .section-four__discription {
+        max-width: 480px;
+        font-size: 0.9rem;
+        margin-top: 20px;
+        line-height: 1.5rem;
+    }
+    
+    .section-four__title:after {
+        border-bottom: 3px solid rgb(223, 232, 235);
+        width: 75px;
+        bottom: -25px;
+    }
+    
+    .card__name4 {
+       font-size: 1.2rem;
+    }
+
+    .card{
+        margin-top: 65px;
+    }
+}
+
 
 
 
@@ -426,12 +466,12 @@
 
 .section-five {
     min-height: 120vh;
-    background-color: rgb(250, 221, 136);
+    background-color: rgb(255, 220, 152);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section-five__title {
@@ -444,7 +484,7 @@
 .section-five__title:after {
     content: '';
     position: absolute;
-    border-bottom: 2px solid rgb(222, 190, 35);
+    border-bottom: 2px solid rgb(229, 194, 126);
     width: 70px;
     bottom: -10px;
     left: calc(50% - 35px);
@@ -464,6 +504,7 @@
     text-transform: uppercase;
     color: rgb(27, 27, 27);
     text-align: center;
+    font-family: 'Dosis', sans-serif;
 }
 .navbar__list-5 {
     margin-top: 30px;
@@ -486,7 +527,7 @@
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: rgb(222, 190, 35);
+    background-color: rgb(235, 200, 132);
 }
 
 .section-five .btn-5 {
@@ -495,7 +536,69 @@
     color: #fff;
     border: 1px solid rgb(52, 163,112);
     margin-top: 30px;
+    margin-bottom: 20px;
 }
+
+
+@media screen and (max-width: 680px) {
+    .section-five {
+        min-height: 260vh;
+    }
+    
+    .section-five__title {
+        margin-top: 105px;
+        margin-bottom: 45px;
+        font-size: 2.1rem;
+    }
+    
+    .section-five__discription {
+        width: 430px;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    .section-five__title:after {
+        border-bottom: 3px solid rgb(235, 200, 132);
+        width: 75px;
+        bottom: -20px;
+        left: calc(50% - 35px);
+    }
+      
+    .card__img-5 {
+        height: 300px;
+        width: 400px;
+    }
+    
+    .card__name-5 {
+        margin-top: 10px;
+    }
+    .navbar__list-5 {
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+    .section-five__itemcard{
+        padding: 15px 75px 15px 75px;
+    }
+    
+    .section-five__list-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+    }
+    
+    .navbar__item-5 {
+        padding: 14px 20px;
+        margin: 0px 3px;
+        border-radius: 10px;
+        font-size: 0.8rem;
+    }
+    
+    .section-five .btn-5 {
+        padding: 20px 160px;
+        margin-top: 80px;
+    }
+}
+
 
 
 /* ==== section six ==== */
@@ -510,7 +613,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
@@ -520,6 +623,9 @@
     margin-bottom: 50px;
     position: relative;
     font-size: 2.2rem;
+    font-family: 'PT Sans', sans-serif;
+    width: 445px;
+    text-align: center;
 }
 
 .section-six__title:after {
@@ -561,7 +667,7 @@
 
 .carda__name {
     text-transform: uppercase;
-    margin-top: px;
+    margin-top: 0px;
     color: white;
 }
 
@@ -595,4 +701,42 @@
     height: 90px;
     width: 90px;
     border-radius: 50%;    
+}
+
+
+@media screen and (max-width: 680px) {
+    .section-six {
+        min-height: 190vh;
+    }
+    
+    .section-six__title {
+        margin-top: 25px;
+    }
+    
+    .section-six__title:after {
+        width: 70px;
+    }
+    
+    .section-six__discription {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    .section-six__list {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-six__item {
+        margin: 50px 20px 0px 20px;
+    } 
+    
+    .carda {
+        flex-direction: column;
+        align-items: center;
+    }
+          
+    .carda__img {
+        margin-bottom: 15px;    
+    }
+    
 }
