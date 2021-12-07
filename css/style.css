@@ -169,9 +169,6 @@
 }
 
 @media screen and (max-width: 680px) {
-    .section-two {
-        height: 178vh;
-    }
 
     .section-two__list {
         grid-template-columns: 1fr;
@@ -740,3 +737,103 @@
     }
     
 }
+
+
+
+/* ==== section seven ==== */
+/* ==== section seven ==== */
+/* ==== section seven ==== */
+
+
+.section-seven {
+    display: flex;
+    flex-direction: column;
+    height: 107vh;
+    background-color: rgb(60, 84, 154);
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+.section-seven_title{
+    text-transform: uppercase;
+    position: relative;
+    font-size: 2.2rem;
+    font-family: 'PT Sans', sans-serif;
+    width: 445px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section-seven_title:after{
+    content: '';
+    position: absolute;
+    border-bottom: 4px solid rgb(39, 58, 114);
+    width: 80px;
+    bottom: -20px;
+    left: calc(50% - 35px);
+}
+
+.section-seven_discription {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.section-seven_perviy {
+    display: flex;
+    flex-direction: row;
+    width: 740px;
+    justify-content: space-between;
+}
+
+.section-seven_contacts{
+    background-color: rgb(39, 58, 114);
+    width: 350px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.section-seven_message {
+    background-color: rgb(39, 58, 114);
+    text-align: start;
+    width: 740px;
+    height: 170px;
+    margin-top: -35px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.button7{
+    width: 255px;
+    height: 55px;
+    background-color: rgb(48, 186, 232);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(44, 158, 199);
+    font-size: 1rem;
+    margin-bottom: 35px;
+}
+
+.footer7{
+    background-color: rgb(52, 75, 142);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    height: 130px;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.footer7_item{
+    margin: 0px 60px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3rem;
+}
+
+.p_mes{margin: 15px 15px;}
+.p_cont{margin-left: 15px;}
