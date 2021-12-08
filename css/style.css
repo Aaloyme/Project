@@ -803,7 +803,6 @@
     height: 170px;
     margin-top: -35px;
     border-radius: 5px;
-    font-size: 0.9rem;
 }
 
 .button7{
@@ -837,3 +836,46 @@
 
 .p_mes{margin: 15px 15px;}
 .p_cont{margin-left: 15px;}
+
+@media screen and (max-width: 680px) {
+    .section-seven {
+        height: 113vh;
+    }
+    
+    .section-seven_title:after{
+        width: 70px;
+    }
+    
+    .section-seven_discription {
+        margin-top: -10px;
+        width: 500px;
+    }
+    
+    .section-seven_perviy {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section-seven_contacts{
+        width: 465px;
+        margin-bottom: 10px;
+    }
+    
+    .section-seven_message {
+        width: 465px;
+    }
+    
+    .button7{
+        width: 465px;
+    }
+    
+    .footer7{
+        height: 110px;
+        margin-top: 20px;
+    }
+    
+    .footer7_item{
+        margin: 0px 6px;
+        font-size: 0.8rem;
+    }
+}
